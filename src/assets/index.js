@@ -20,15 +20,22 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import next from "./tech/next.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import brainnest from "./company/brainnest.png";
+import lanepact from "./company/lanepact.jpg";
+import upwork from "./company/upwork.ico";
+import eventnub from "./company/eventnub.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import yoom from "./yoom.png";
+import landing from "./landing.png";
+
+import marcel from "./marcel.jpeg";
+import itua from "./itua.jpeg";
+import chigozie from "./chigozie.jpeg";
 
 export {
   logo,
@@ -52,11 +59,17 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  lanepact,
+  eventnub,
+  brainnest,
+  upwork,
   carrent,
   jobit,
   tripguide,
+  next,
+  yoom,
+  landing,
+  marcel,
+  chigozie,
+  itua,
 };

@@ -15,14 +15,20 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  eventnub,
+  lanepact,
+  upwork,
+  brainnest,
+  next,
+  yoom,
+  landing,
+  marcel,
+  itua,
+  chigozie,
 } from "../assets";
 
 export const navLinks = [
@@ -44,18 +50,6 @@ const services = [
   {
     title: "Web Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -92,10 +86,7 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+
   {
     name: "Three JS",
     icon: threejs,
@@ -109,18 +100,18 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "next",
+    icon: next,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Developer",
+    company_name: "EventNub",
+    icon: eventnub,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2023 - Feb 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +120,11 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend Developer",
+    company_name: "Lanepact",
+    icon: lanepact,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Nov 2020 - Dec 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,29 +133,28 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Frontend Developer Intern",
+    company_name: "Brainnest",
+    icon: brainnest,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2020 - Jun 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborate on the creation and implementation of user interfaces and experiences for web applications.",
+      "Assist in the coding and integration of new features and functionalities.",
+      "Contribute to improving the speed and efficiency of Brinnest's web applications through code optimization and performance enhancements.",
+      "Support the testing process by writing and executing tests, identifying bugs, and ensuring the overall quality of Brinnest's frontend applications.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Freelance Frontend Developer",
+    company_name: "Upwork",
+    icon: upwork,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Feb 2021 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Ensuring code quality and performance through thorough testing, debugging, and optimization practices to deliver high-quality deliverables.",
     ],
   },
 ];
@@ -172,27 +162,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Working with Ben was an absolute pleasure. His attention to details and expertise in frontend development significantly elevated our project. Their ability to translate our vision into a polished user interface exceeded our expectations.",
+    name: "Marcel Nwankwo",
+    designation: "CEO",
+    company: "Lanepact",
+    image: marcel,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Ben is a true professional in frontend development. His responsiveness, dedication, and technical skills were instrumental in delivering a high-quality product on time and within budget.",
+    name: "Chigozie Ofoji",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "EventNub",
+    image: chigozie,
+  },
+  {
+    testimonial:
+      "I had the pleasure of collaborating with Ben on a frontend project, and I couldn't be more impressed. His creativity, problem-solving skills, and commitment to excellence were evident throughout the entire process.",
+    name: "Itua Emmauel",
+    designation: "COO",
+    company: "Lanepact",
+    image: itua,
   },
 ];
 
@@ -203,11 +193,11 @@ const projects = [
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "next",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
@@ -216,49 +206,44 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/femdave/cars_showcase",
   },
   {
-    name: "Job IT",
+    name: "Yoom",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users start instant sessions, schedule future meetings, and seamlessly join ongoing discussions, streamlining collaboration efforts effortlessly.",
     tags: [
       {
-        name: "react",
+        name: "next",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "typescript",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: yoom,
+    source_code_link: "https://github.com/femdave/zoom_clone",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Gericht Resturant",
+    description: "A resturant landing page",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: landing,
+    source_code_link: "https://github.com/femdave/gericht-resturant",
   },
 ];
 
